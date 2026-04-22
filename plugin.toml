@@ -1,0 +1,11 @@
+[plugin]
+name = "fledge-hello-rust"
+version = "0.1.0"
+description = "Example plugin demonstrating the fledge-v1 protocol in Rust"
+author = "CorvidLabs"
+protocol = "fledge-v1"
+
+[[commands]]
+name = "hello-rust"
+description = "Interactive hello-world using all protocol messages (Rust)"
+binary = "target/release/fledge-hello-rust"

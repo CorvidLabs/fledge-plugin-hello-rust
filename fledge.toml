@@ -1,0 +1,6 @@
+[tasks]
+build = "cargo build --release"
+dev = "cargo build"
+test = "cargo test"
+check = "cargo clippy -- -D warnings"
+fmt = "cargo fmt --check"
