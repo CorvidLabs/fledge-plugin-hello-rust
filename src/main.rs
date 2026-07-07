@@ -225,7 +225,10 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
 
     // -- Step 0: Read init --------------------------------------------------
     let init = io.recv_init();
-    eprintln!("init received: plugin={} v{}", init.plugin.name, init.plugin.version);
+    eprintln!(
+        "init received: plugin={} v{}",
+        init.plugin.name, init.plugin.version
+    );
 
     let project_name = init
         .project
@@ -338,9 +341,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
     });
 
     // -- Step 7: Progress bar -----------------------------------------------
-    io.send(&OutboundMessage::Output {
-        text: "\n".into(),
-    });
+    io.send(&OutboundMessage::Output { text: "\n".into() });
 
     let total = 5;
     for i in 1..=total {
