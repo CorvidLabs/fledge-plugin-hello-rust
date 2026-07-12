@@ -4,3 +4,8 @@ dev = "cargo build"
 test = "cargo test"
 check = "cargo clippy -- -D warnings"
 fmt = "cargo fmt --check"
+manifest = "grep -q 'protocol = \"fledge-v1\"' plugin.toml && grep -q 'binary = \"target/release/fledge-hello-rust\"' plugin.toml"
+
+[lanes.verify]
+description = "Format, lint, test, build, and validate the Rust fledge-v1 reference plugin"
+steps = ["fmt", "check", "test", "build", "manifest"]
