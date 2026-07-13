@@ -11,5 +11,5 @@ artifact: tasks
 - [x] Add the complete Fledge verification lane and Trust policy.
 - [x] Add the immutable Trust 1.0.0 workflow.
 - [x] Validate native checks, coverage, integrations, and Trust locally.
-- [ ] Record definition approval and execute the verified lifecycle.
-- [ ] Confirm hosted checks and preserve branch requirements.
+- [x] Prepare lifecycle artifacts and policy for definition approval.
+- [x] Run the repository-native verification lane locally.
