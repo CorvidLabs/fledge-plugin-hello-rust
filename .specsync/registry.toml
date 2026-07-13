@@ -1,0 +1,5 @@
+[registry]
+name = "fledge-plugin-hello-rust-trust-wave4"
+
+[specs]
+hello-rust = "specs/hello-rust/hello-rust.spec.md"

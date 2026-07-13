@@ -1,0 +1,21 @@
+{
+  "timestamp": 1783954460,
+  "commit": "a8a5755b94804905d291992a98712950143ff16b",
+  "contract_digest": "9baa32fbec2cc091e3d24f61d897556518c332fe996556fdc253916c5ce6667c",
+  "workspace_digest": "deea9de87fdc35370358b483fe355efc2b5a8e9e2add57958a927b6e0ddf48d7",
+  "acceptance_input_digest": "c7d125fe65072d3d7c6c217404e88dd3010fb6587490c710a578ac67c8e0c559",
+  "passed": true,
+  "commands": [
+    {
+      "command": "fledge lanes run verify",
+      "success": true,
+      "exit_code": 0
+    }
+  ],
+  "requirement_ids": [
+    "REQ-hello-rust-001",
+    "REQ-hello-rust-002",
+    "REQ-hello-rust-003",
+    "REQ-hello-rust-004"
+  ]
+}
