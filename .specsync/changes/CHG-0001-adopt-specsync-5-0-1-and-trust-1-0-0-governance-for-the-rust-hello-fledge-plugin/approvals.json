@@ -6,6 +6,13 @@
       "timestamp": 1783954408,
       "digest": "9baa32fbec2cc091e3d24f61d897556518c332fe996556fdc253916c5ce6667c",
       "note": "Definition approved after complete semantic-delta and native-evidence audit."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783954517,
+      "digest": "3a94f0aa722da205d3162bd4be2bbeeb449607a2e9f03add9ad36a4f09d8a25d",
+      "note": "Closing approval recorded after successful committed-head native verification with explicit requirement evidence."
     }
   ]
 }

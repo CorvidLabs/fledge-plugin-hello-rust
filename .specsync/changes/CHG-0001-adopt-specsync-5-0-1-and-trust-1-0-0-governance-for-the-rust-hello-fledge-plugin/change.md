@@ -1,6 +1,6 @@
 ---
 id: CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-the-rust-hello-fledge-plugin
-state: implementing
+state: accepted
 type: migration
 base_commit: a4b42a9eff510490fc9fbb2e5000a56f56a1259f
 ---

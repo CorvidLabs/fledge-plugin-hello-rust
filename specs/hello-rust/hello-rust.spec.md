@@ -1,6 +1,6 @@
 ---
 module: hello-rust
-version: 1
+version: 2
 status: active
 files:
   - src/main.rs
@@ -58,3 +58,4 @@ Then the plugin demonstrates log, output, prompts, selections, progress, storage
 | Version | Date | Changes |
 |---------|------|---------|
 | 1 | 2026-07-12 | Document the existing Rust fledge-v1 reference behavior for SpecSync 5 adoption. |
+| 2026-07-13 | CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-the-rust-hello-fledge-plugin: Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for the Rust Hello Fledge plugin |
